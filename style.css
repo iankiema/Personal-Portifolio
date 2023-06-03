@@ -227,6 +227,22 @@ body {
   margin-right: 12px;
 }
 
+.showcase button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding: 12px 0;
+  background: #f55800;
+  color: #fff;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .main-content button {
   padding: 12px;
   background: #f55800;
@@ -240,6 +256,28 @@ body {
   color: #fff;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.contact-form button {
+  padding: 12px;
+  width: 25%;
+  background: #f55800;
+  border: none;
+  font-family: "Inter", sans-serif;
+  margin-top: 2%;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 12.6%;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.showcase button:hover {
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
 }
 
 .main-content button:hover {
@@ -258,28 +296,6 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-}
-
-.showcase button {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  padding: 12px 0;
-  background: #f55800;
-  color: #fff;
-  border: none;
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.showcase button:hover {
-  color: #f55800;
-  background: #fff5e1;
-  border: 1px solid #f55800;
 }
 
 .showcase-detail {
@@ -365,21 +381,6 @@ body {
   margin-bottom: 24px;
   color: #fff;
   max-width: 95%;
-}
-
-.my-details button {
-  padding: 12px;
-  background: #f55800;
-  border: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  margin-bottom: 12.6%;
-  color: #fff;
-  cursor: pointer;
-  transition: 0.3s;
 }
 
 .my-details button:hover {
@@ -474,22 +475,6 @@ body {
 
 .second-name {
   width: 49%;
-}
-
-.contact-form button {
-  padding: 12px;
-  width: 25%;
-  background: #f55800;
-  border: none;
-  font-family: "Inter", sans-serif;
-  margin-top: 2%;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  margin-bottom: 12.6%;
-  color: #fff;
-  cursor: pointer;
-  transition: 0.3s;
 }
 
 .contact-form button:hover {
