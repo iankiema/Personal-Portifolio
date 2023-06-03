@@ -132,6 +132,406 @@ body {
   margin-top: 12px;
 }
 
+/* Recent Work Section */
+
+.work-container{
+  display: flex;
+  flex-direction: column;
+  padding:10% 10%;
+  height: 100%;
+  width: 100%;
+}
+
+.project-title{
+  display: flex;
+  height: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+.line{
+  background:black ;
+  height: 1px;
+  width: 75%;
+  margin-left: 20px;
+}
+
+
+.project-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 24px;
+  width: 100%;
+}
+
+.main-project{
+  display: flex;
+  margin-top: 114px;
+  margin-bottom: 24px;
+}
+
+.main-img{
+  margin-right: 24px;
+  max-width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.main-img img{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.main-content h2{
+  width: 100%;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  margin-bottom: 24px;
+}
+
+.main-content p{
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.main-content ul {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.main-content ul li {
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  margin-right: 12px;
+}
+
+.main-content button{
+  padding: 12px;
+  background: #f55800;
+  border: none;
+  width: 40%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-content button:hover{
+  color: #f55800 ;
+  background: #fff5e1;
+  border:1px solid #f55800 ;
+}
+
+.showcase{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.showcase img{
+  position: relative;
+  width: 100%;
+  height:auto;
+}
+
+.showcase button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  padding:12px 0;
+  background: #f55800;
+  color: #fff;
+  border: none;
+  font-family: "Inter";
+  font-size:17px;
+  line-height: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.showcase button:hover {
+  color: #f55800 ;
+  background: #fff5e1;
+  border:1px solid #f55800 ;
+}
+
+.showcase-detail {
+  position: absolute;
+  bottom: 24px;
+  left: 16px;
+  right: 16px;
+}
+
+.showcase-detail h1 {
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.showcase-detail p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: #fff;
+  max-width: 95%;
+}
+
+.showcase-detail ul {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.showcase-detail ul li {
+  padding: 10px 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+  margin-right: 12px;
+}
+
+/* About me section*/
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  padding:10% 10%;
+  height: auto;
+  width: 100%;
+  background: #262626 ;
+  background-image: url(images/illustration-about\ me@2x.png);
+  background-repeat: no-repeat;
+  background-position: 114% 12%;
+  background-size: 30% 30%;
+}
+
+.my-details {
+  width: 45%;
+}
+
+.my-details h1 {
+  width: 100%;
+  font-family: "Crete Round";
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 81.5px;
+  color: #ff6b00;
+}
+
+.my-details p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: #fff;
+  max-width: 95%;
+}
+
+.my-details button {
+  padding: 12px;
+  background: #f55800;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom:12.6%;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.my-details button:hover {
+  color: #f55800 ;
+  background: #fff5e1;
+  border:1px solid #f55800 ;
+}
+
+.about-break {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.my-abilities {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-bottom: 3.68%;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills ul li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  margin-bottom: 2.7%;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  padding:10% 10%;
+  height: auto;
+  width: 100%;
+}
+
+.contact-message {
+  width: 45%;
+  margin-right: 3.3%;
+}
+
+.contact-message h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.contact-form {
+  display: flex;
+  width:55%;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.contact-form input {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 14px 0;
+  margin-bottom: 24px;
+}
+
+.contact-form textarea {
+  padding: 12px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: 3c3a39;
+}
+
+.first-name {
+  width: 50%;
+}
+
+.second-name {
+  width: 49%;
+}
+
+.contact-form button {
+  padding: 12px;
+  width: 25%;
+  background: #f55800;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  margin-top: 2%;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom:12.6%;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  color: #f55800 ;
+  background: #fff5e1;
+  border:1px solid #f55800 ;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.contact-icons {
+  display: flex;
+}
+
+.con-icons {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.con-icons li {
+  padding: 20px;
+}
+
+.icons-pg {
+  width:20px
+}
+
+
 /* Flex Overall Layout For Mobile Responsiveness */
 
 @media only screen and (max-width: 768px) {
@@ -202,6 +602,130 @@ body {
     line-height: 24px;
     color: #f4f5f7;
   }
+
+  /* Flex recent work*/
+  .work-container{
+    padding: 10% 5%;
+  }
+
+  .project-title {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .line {
+    margin-top: 30px;
+  }
+
+  .project-title h1 {
+    font-size: 40px;
+  }
+
+  .main-project {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main-img {
+    width: 100%;
+  }
+
+  .main-content {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .main-content ul {
+    justify-content: space-between;
+  }
+
+  .main-content ul li {
+    padding: 15px 20px;
+  }
+
+  .main-content button {
+    width: 35%;
+  }
+
+  .project-container {
+    grid-template-columns: auto;
+  }
+
+  .showcase button{
+    padding: 24px;
+    bottom: 0px;
+  }
+
+  .showcase-detail{
+    bottom: 60px;
+  }
+
+  .about-me{
+    background-position:154% 25%;
+    background-size: 50% 20%;
+  }
+
+  .my-details{
+    justify-content: center;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 140px;
+  }
+
+  .my-details h1{
+    text-align: center;
+  }
+
+  .my-details p{
+    margin-bottom:45px ;
+  }
+
+  .my-details button{
+    margin-bottom: 2%;
+  }
+
+  .my-abilities{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills h3{
+    text-align: center;
+  }
+
+  .skills ul{
+    text-align: center;
+  }
+
+  .contact{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-message{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .contact-form{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .first-name{
+    width: 100%;
+  }
+
+  .second-name{
+    width: 100%
+  }
+
+  .contact-form button{
+    width: 150px
+
+  }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -241,4 +765,19 @@ body {
     line-height: 24px;
     color: #f4f5f7;
   }
+
+  .about-me{
+    background-position: 122% 30%;
+    background-size: 40% 0%;
+
+}
+
+.main-content ul li {
+  padding: 12px 15px;
+  font-size: 15px;
+}
+
+.main-content button{
+  width: 50%;
+}
 }
