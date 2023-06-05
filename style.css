@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:wght@300;400;500;600;700;800&family=Inter:wght@100;300;400;500;600;700;800&display=swap');
 
+:root {
+  --primary-font: "Crete Round", sans-serif;
+  --secondary-font: "Inter", sans-serif;
+  --primary-color: #ff6b00;
+  --secondary-color: #f55800;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +52,7 @@ body {
 .nav-links li a {
   color: #fff;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-size: 15px;
   font-weight: 600;
   transition: 0.3s;
@@ -107,16 +114,16 @@ body {
 
 .info-header {
   width: 100%;
-  font-family: "Crete Round", sans-serif;
+  font-family: var(--primary-font);
   font-size: 72px;
   font-weight: 400;
   line-height: 81.5px;
-  color: #ff6b00;
+  color: var(--primary-color);
 }
 
 .info-title {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -126,7 +133,7 @@ body {
 
 .info-details {
   max-height: 123px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -155,7 +162,7 @@ body {
 }
 
 .header-title h1 {
-  font-family: "Crete Round", sans-serif;
+  font-family: var(--primary-font);
 }
 
 .line-container {
@@ -200,7 +207,7 @@ body {
 
 .main-content h2 {
   width: 100%;
-  font-family: "Crete Round", sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -211,7 +218,7 @@ body {
 
 .main-content p {
   width: 100%;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -229,7 +236,7 @@ body {
 .main-content ul li {
   padding: 10px 12px;
   border: 1px solid #8993a4;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -244,10 +251,10 @@ body {
   right: 0;
   width: 100%;
   padding: 12px 0;
-  background: #ff6b00;
+  background: var(--primary-color);
   color: #fff;
   border: none;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
@@ -256,10 +263,10 @@ body {
 
 .main-content button {
   padding: 12px;
-  background: #ff6b00;
+  background: var(--primary-color);
   border: none;
   width: 40%;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -271,9 +278,9 @@ body {
 
 .contact-form button {
   padding: 12px;
-  background: #f55800;
+  background: var(--secondary-color);
   border: none;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   margin-right: auto;
   margin-top: 24px;
   font-weight: 700;
@@ -286,9 +293,9 @@ body {
 
 .my-details button {
   padding: 12px;
-  background: #ff6b00;
+  background: var(--primary-color);
   border: none;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -300,21 +307,21 @@ body {
 }
 
 .my-details button:hover {
-  color: #f55800;
+  color: var(--secondary-color);
   background: #fff5e1;
-  border: 1px solid #f55800;
+  border: 1px solid var(--secondary-color);
 }
 
 .showcase button:hover {
-  color: #f55800;
+  color: var(--secondary-color);
   background: #fff5e1;
-  border: 1px solid #f55800;
+  border: 1px solid var(--secondary-color);
 }
 
 .main-content button:hover {
-  color: #f55800;
+  color: var(--secondary-color);
   background: #fff5e1;
-  border: 1px solid #f55800;
+  border: 1px solid var(--secondary-color);
 }
 
 .showcase {
@@ -342,7 +349,7 @@ body {
 }
 
 .showcase-detail h1 {
-  font-family: "Crete Round", sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -352,7 +359,7 @@ body {
 }
 
 .showcase-detail p {
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -374,7 +381,7 @@ body {
 
 .showcase-detail ul li {
   padding: 10px 12px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -406,16 +413,16 @@ body {
 }
 
 .my-details h1 {
-  font-family: "Crete Round", sans-serif;
+  font-family: var(--primary-font);
   font-size: 72px;
   font-weight: 400;
   line-height: 81.5px;
-  color: #ff6b00;
+  color: var(--primary-color);
   margin-bottom: 24px;
 }
 
 .my-details p {
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -437,7 +444,7 @@ body {
 }
 
 .skills h3 {
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -451,7 +458,7 @@ body {
 }
 
 .skills ul li {
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -483,7 +490,7 @@ body {
 }
 
 .contact-message h2 {
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -507,7 +514,7 @@ body {
 
 .contact-form textarea {
   padding: 12px;
-  font-family: "Inter", sans-serif;
+  font-family: var(--secondary-font);
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
@@ -530,9 +537,9 @@ body {
 }
 
 .contact-form button:hover {
-  color: #f55800;
+  color: var(--secondary-color);
   background: #fff5e1;
-  border: 1px solid #f55800;
+  border: 1px solid var(--secondary-color);
 }
 
 .footer {
